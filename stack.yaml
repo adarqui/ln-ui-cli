@@ -1,0 +1,8 @@
+flags: {}
+packages:
+- '.'
+- '../haskell-ln-types'
+- '../haskell-api-helpers'
+- '../haskell-api-helpers-shared'
+extra-deps: []
+resolver: lts-6.4
