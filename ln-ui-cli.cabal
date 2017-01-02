@@ -17,9 +17,14 @@ library
   hs-source-dirs:      src
   exposed-modules:     LN.UI.Cli
                      , LN.UI.Cli.Main
+                     , LN.UI.Cli.Test
   build-depends:       base >= 4.7 && < 5
                      , aeson
                      , bytestring
+                     , containers
+                     , either
+                     , monads-tf
+                     , text
                      , transformers
                      , haskell-ln-types
                      , haskell-api-helpers
